@@ -4,6 +4,9 @@
   list-style-type: none;
   padding: 0;
   width: 15em;
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
 }
 
 input {
@@ -38,6 +41,7 @@ input {
 .heroes a:hover {
   color: #2c3a41;
   background-color: #e6e6e6;
+  flex-direction: row;
 }
 
 .heroes a:active {
